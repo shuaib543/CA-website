@@ -136,6 +136,12 @@
     <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+   <!--Danish Added--> 
+    <link rel="icon" type="image/png" href="…">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--/Danish Added-->
 
    
     <!--[if lt IE 9]>
@@ -145,7 +151,7 @@
 <body>
 
     <!-- Nav -->
-    <nav id = "large-screen-nav" class = "hide-on-med-and-down">
+    <nav id = "large-screen-nav" style="background-color: #000080;">
         <div class = "nav-wrapper">
             <a href = "html/index.html" class = "firm-name">
                 <img src = "../images/logos/1.png" class = "firm-logo">
@@ -164,39 +170,50 @@
                 </li>
 
                 <li class = "waves-effect waves-light">
-                    <a href = "../html/news.html">News</a>
+                    <a href = "../html/news.html">Careers</a>
                 </li>
 
 
 
                 <li class = "waves-effect waves-light">
-                    <a href = "../html/contact.html">Contact</a>
+                    <a href = "../html/contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a class = "waves-effect waves-light dropdown-button" data-contrainwidth = "false" data-gutter = "40" data-alignment="right" data-beloworigin = "true" data-activates = "others" href = "#!">Others</a>
                 </li>
             </ul>
         </div>
     </nav>
     
+
+
     <!-- Dropdown for ABOUT US -->
     <ul id="aboutus" class = "dropdown-content">
-        <li class = "waves-effect waves-light"><a href = "/html/aboutus/team.html">Our Team</a></li>
-        <li class = "waves-effect waves-light"><a href = "/html/aboutus/ethos.html">Our Ethos</a></li>
-        <li class = "waves-effect waves-light"><a href = "/html/aboutus/firm-history.html">About the Firm</a></li>
+        <li class = "waves-effect waves-light"><a href = "/html/aboutus/team.html">Company Registration</a></li>
+        <!--<li class = "waves-effect waves-light"><a href = "/html/aboutus/ethos.html">Our Ethos</a></li>
+        <li class = "waves-effect waves-light"><a href = "/html/aboutus/firm-history.html">About the Firm</a></li>-->
     </ul>
     
     <!-- Dropdown for SERVICES -->
     <ul id="services" class = "dropdown-content">
         <li><a href = "/html/services/corporate-services.html">Corporate Services</a></li>
-        <li><a href = "/html/services/audit-assurance.html">Audit & Assurance Services</a></li>
-        <li><a href = "/html/services/bookkeeping-outsourcing.html">Book Keeping & Outsourcing Services</a></li>
-        <li><a href = "/html/services/risk-advisory-services.html" class = "dropdown-button" data-alignment = "right" data-hover = "hover" data-activates = "services-subsection-1">Taxation</a></li>
+        <li><a href = "/html/services/audit-assurance.html">Financial Services</a></li>
+        <li><a href = "/html/services/bookkeeping-outsourcing.html">More can be added here</a></li>
+        <!-- <li><a href = "/html/services/risk-advisory-services.html" class = "dropdown-button" data-alignment = "right" data-hover = "hover" data-activates = "services-subsection-1">Taxation</a></li>
         <li><a href = "/html/services/risk-advisory-services.html">Risk Advisory Services</a></li>
-        <li><a href = "/html/services/other-services.html">Other Services</a></li>
+        <li><a href = "/html/services/other-services.html">Other Services</a></li>-->
     </ul>
 
     <!-- Dropdown for sub-sections in SERVICES dropdown -->
     <ul id="services-subsection-1" class="dropdown-content">
         <li class = "waves-effect waves-light"><a href="/html/services/direct-taxation.html">Direct Taxation</a></li>
         <li class = "waves-effect waves-light"><a href="/html/services/indirect-taxation.html">Indirect Taxation</a></li>
+    </ul>
+
+    <!-- Dropdown for others -->
+    <ul id="others" class = "dropdown-content">
+        <li class = "waves-effect waves-light"><a href = "#">Newsletter</a></li>
+        <li class = "waves-effect waves-light"><a href = "#">Blogs</a></li>
     </ul>
 
     <!-- Nav bar for small and medium sized screens -->
@@ -373,6 +390,124 @@
         </div>
     </div>
 
+    <!--DANISH CARD SECTION-->
+    <!--======Pixel Grid======-->
+<div><img src="https://www.seanet.com/~owenmp/hvd-web/play-aids/grid-lg.gif" class="pixel-grid"/></div>
+<div><i id="toggle-grid" class="fa fa-th"></i></div>
+<!------------------------->
+<!--======Push Menu======-->
+<div class="container bar-cont">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 push-bar">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 arrow"></div>
+    </div>
+</div>
+<!------------------------->
+<!--========Cards========-->
+<div class="container-fluid main-cont">
+    <div class="row news-row">
+        <div class="container-fluid col-md-12 col-sm-6 justify-content-center news-block">
+            <div class="card-group">
+              <div class="underlay">
+                <div class="card">
+                    <div class="card-img-top" style="background-image: url('https://i.imgur.com/wLMJQPH.png')"></div>
+                    <div class="card-block" >
+                    <h5 class="card-title" style="font-family: 'Anton', sans-serif">Canon Unveils New Lens<hr></h5>
+                    <p class="card-text" >Canon will have a full slate of new and updated products to show attendees at this year’s NAB Show. The company has announced its new Compact-Servo 70-200mm telephoto zoom lens <a href="#"><u>Read More...</u></a></p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+              </div>
+              <div class="underlay">
+               <div class="card">
+                    <div class="card-img-top" style="background-image: url('https://i.imgur.com/tT6Bxay.png')"></div>
+                    <div class="card-block" >
+                      <h5 class="card-title" style="font-family: 'Anton', sans-serif">Sennheiser HD 598 Tech Specs<hr></h5>
+                      <p class="card-text" >The brown Sennheiser HD 598 audiophile headphones have excellent, detailed hi-fi sound and a stylish design. They are comfortable to wear and offer versatility as well. These accessories feature a multi-dimensional soundstage <a href="#"><u>Read More...</u></a></p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="underlay">
+                  <div class="card">
+                    <div class="card-img-top" style="background-image: url('https://i.imgur.com/n6b2rib.png')"></div>
+                    <div class="card-block" >
+                      <h5 class="card-title" style="font-family: 'Anton', sans-serif">North Sea Wind Power Hub<hr></h5>
+                      <p class="card-text" >The harnessing of energy has never been without projects of monolithic scale. From the Hoover Dam to the Three Gorges—the world's largest power station—engineers the world over have recognised that with size comes advantages <a href="#"><u>Read More...</u></a></p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="underlay">
+                  <div class="card">
+                    <div class="card-img-top" style="background-image: url('https://i.imgur.com/ssMsuUO.png')"></div>
+                    <div class="card-block" >
+                      <h5 class="card-title" style="font-family: 'Anton', sans-serif">Apple MacBook Retina displays<hr></h5>
+                      <p class="card-text" >In 2015 we reported on an issue with MacBook Retina displays that were seeing problems with the anti-reflective coating wearing off, which came to be known as ‘Staingate.’ <a href="#"><u>Read More...</u></a></p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="underlay">
+                  <div class="card">
+                    <div class="card-img-top" style="background-image: url('https://i.imgur.com/yAFDnZ1.png')"></div>
+                    <div class="card-block" >
+                      <h5 class="card-title" style="font-family: 'Anton', sans-serif">Intel Dismisses 7700k Problems<hr></h5>
+                      <p class="card-text" >Modern processors can run at temperatures ranging from 25 to 90 degrees, depending on configuration, cooling and workload. That said, when a CPU takes on a heavy load, that increase is gradual <a href="#"><u>Read More...</u></a></p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="underlay">
+                  <div class="card">
+                    <div class="card-img-top" style="background-image: url('https://i.imgur.com/5rgwfW6.png')"></div>
+                    <div class="card-block" >
+                      <h5 class="card-title" style="font-family: 'Anton', sans-serif">T3 Agenda: Beats By Dre<hr></h5>
+                      <p class="card-text" >In the latest edition of the T3 Agenda, we prepare to box our ears with Beats By Dre's Anthony Joshua headphones, detail the pre-order incentives and special editions of Call of Duty WW2 <a href="#"><u>Read More...</u></a></p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="underlay">
+                  <div class="card">
+                    <div class="card-img-top" style="background-image: url('https://i.imgur.com/WaGs6zS.png')"></div>
+                    <div class="card-block" >
+                      <h5 class="card-title" style="font-family: 'Anton', sans-serif">Remembering &ldquo;Jobs&rdquo; 5th anniv<hr></h5>
+                      <p class="card-text" >It has been 5 years since Steve Jobs passed away. Many publications write about how Apple Inc. has faired under Tim Cook's leadership post-Jobs <a href="#"><u>Read More...</u></a></p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="underlay">
+                  <div class="card">
+                    <div class="card-img-top" style="background-image: url('https://i.imgur.com/M8PGoML.png')"></div>
+                    <div class="card-block" >
+                      <h5 class="card-title" style="font-family: 'Anton', sans-serif">Pair iPod Touch with an AirPlay<hr></h5>
+                      <p class="card-text" >Officially, in order to use AirPlay to stream music from your iOS device, you would need either an Apple TV, AirPort Express, or an AirPlay-enabled receiver or set of speakers <a href="#"><u>Read More...</u></a></p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="underlay">
+                  <div class="card">
+                    <div class="card-img-top" style="background-image: url('https://i.imgur.com/Hp8NxLI.png')"></div>
+                    <div class="card-block" >
+                      <h5 class="card-title" style="font-family: 'Anton', sans-serif">A Time-Travel Experiment Works<hr></h5>
+                      <p class="card-text" >In a makeshift lab, a trio of brainiac students argue over their time-travel device. The skeptic on the team has her doubts—not that the invention will work <a href="#"><u>Read More...</u></a></p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------>
+    <!--/DANISH CARD SECTION-->
     <!-- Welcome section -->
     <div class = "welcome-section container">
         <p class = "welcome-section-heading">Welcome to CA & ASSOCIATES</p>
@@ -716,6 +851,102 @@
     <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
     <script src = "/js/indexpage.js"></script>
     <script src = "/js/backend.js"></script>
+    <script>
+        var main = function () {
+    $('.push-bar').on('click', function(event){
+      if (!isClicked){
+        event.preventDefault();
+        $('.arrow').trigger('click');
+        isClicked = true;
+      }
+    });
+  
+    $('.arrow').css({
+      'animation': 'bounce 2s infinite'
+    });
+    $('.arrow').on("mouseenter", function(){
+        $('.arrow').css({
+                'animation': '',
+                'transform': 'rotate(180deg)',
+                'background-color': 'black'
+           });
+    });
+     $('.arrow').on("mouseleave", function(){
+        if (!isClicked){
+            $('.arrow').css({
+                    'transform': 'rotate(0deg)',
+                    'background-color': 'black'
+               });
+        }
+    });
+
+    var isClicked = false;
+
+    $('.arrow').on("click", function(){
+        if (!isClicked){
+            isClicked = true;
+            $('.arrow').css({
+                'transform': 'rotate(180deg)',
+                'background-color': 'black',
+           });
+
+            $('.bar-cont').animate({
+                top: "-15px"
+            }, 300);
+            $('.main-cont').animate({
+                top: "0px"
+            }, 300);
+            // $('.news-block').css({'border': '0'});
+            // $('.underlay').slideDown(1000);
+
+        }
+        else if (isClicked){
+            isClicked = false;
+            $('.arrow').css({
+                'transform': 'rotate(0deg)',       'background-color': 'black'
+           });
+
+            $('.bar-cont').animate({
+                top: "-215px"
+            }, 300);
+            $('.main-cont').animate({
+                top: "-215px"
+            }, 300);
+        }
+    console.log('isClicked= '+isClicked);
+    });
+  
+    $('.card').on('mouseenter', function() {
+      $(this).find('.card-text').slideDown(300);
+    });
+  
+    $('.card').on('mouseleave', function(event) {
+       $(this).find('.card-text').css({
+         'display': 'none'
+       });
+     });
+};
+
+$(document).ready(main);
+
+    </script>
+<script src="jquery-3.1.1.min.js"></script>
+<script name="toggle-grid" type="text/javascript">
+$(document).ready(function(){
+  $(document).on("keypress", function(event) {
+    // If 'alt + g' keys are pressed:
+    if (event.which === 169){
+        $('#toggle-grid').toggle();
+     }
+  });
+
+  $('#toggle-grid').on("click"
+  , function() {
+      $('.pixel-grid').toggle();
+      $('#toggle-grid').toggleClass('orange');
+    });
+});
+</script>
 
 </body>
 </html>
